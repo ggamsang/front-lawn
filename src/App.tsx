@@ -1,18 +1,18 @@
-import { useEffect, useState } from 'react'
+import React from 'react'
 import './App.css'
 
-const MyLawn = () => {
-  return <table></table>
+const MyLawnToday = () => {
+  return <div></div>
 }
+
+const MyLawnCalendar = () => {
+  return <table>
+    <tr></tr>
+    </table>
+}
+
 function App() {
-  useEffect(()=>{
-    console.log("hello!")
-  },[])
-  return (
-    <>
-      <MyLawn/>   
-    </>
-  )
+  return (<MyLawnCalendar/>)
 }
 
 export default App
